@@ -1,7 +1,7 @@
 Bridges
 ======
 
-Organization link: [Coming Soon] <br />
+Organization link: [https://github.com/BridgesApp] <br />
 Repo link: [https://github.com/BridgesApp/Bridges] <br/>
 GitHub pages link: [https://bridgesapp.github.io/Bridges/]
 
