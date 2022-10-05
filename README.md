@@ -3,7 +3,7 @@ Bridges
 
 Organization link: [Coming Soon] <br />
 Repo link: [https://github.com/matt-dagostino/SEG2900] <br/>
-GitHub pages link: [https://matt-dagostino.github.io/SEG2900]
+GitHub pages link: [https://bridgesapp.github.io/Bridges/]
 
 Group number 6 <br/>
 
