@@ -4,7 +4,7 @@ It's hard to keep up with people, if your friend changes their phone number, you
 
 Organization link: [https://github.com/BridgesApp] <br />
 Repo link: [https://github.com/BridgesApp/Bridges] <br/>
-GitHub pages link: [https://bridgesapp.github.io/Bridges/]
+GitHub pages link: [https://bridgesapp.github.io]
 
 Matteo Dagostino - Student Number: 300287930 - Github Username : matt-dagostino - https://github.com/matt-dagostino <br />
 Linden Sheehy - Student Number: 300287097 - GitHub Username: lindensheehy - https://github.com/lindensheehy <br /> 
