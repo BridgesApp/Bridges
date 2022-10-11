@@ -11,4 +11,3 @@ Linden Sheehy - Student Number: 300287097 - GitHub Username: lindensheehy - http
 Alexandre Pilon - Student Number: 300287662 - GitHub Username: Apilo069 - https://github.com/Apilo069 <br />
 Maryanne Moyana - Student Number: 300287059 - GitHub Username: mmoya064 - https://github.com/mmoya064 <br />
 Yassine Boukattaya - Student Number: 300286970 - GitHub Username: Yassineuo - https://github.com/Yassineuo <br />
-
