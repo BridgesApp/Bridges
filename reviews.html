@@ -1,1 +1,74 @@
-<h1>Reviews page!</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BridgesApp - Home</title>
+  <link rel="icon" type="image/png" href="./Sources/Images/applogofavicon.png">
+</head>
+<body>
+
+<h1>Review!</h1>
+
+
+<!--On every other page, the "<a class="active" href="/.index">Home</a>" will have to be modified so that our current page is active-->
+<!--
+  for example, if we are on the about us, <a class="active" href="/.index">Home</a> -> <a href="./index>Home</a>" 
+  and <a href="./about-us" >About us</a> -> <a class="active" href="/.about-us">About us</a>
+-->
+<!--Will have to add the logo in the taskbar-->
+<div class="taskbar">
+    <a href="./sign-up" >Sign up!</a>
+    <a href="./faq" >F.A.Q</a>
+    <a href="./terms-of-service" >Terms of service</a>
+    <a class=".active" href="./reviews" >Reviews / Testimonials</a>
+    <a href="./features" >Features Page</a> 
+    <a href="./about-us" >About us</a>
+    <a href="/.index">Home</a>
+    <a class="logo" <img src="logo.png" </div></a>
+
+
+</div>
+<!-- Creating a division makes adding CSS much easier, we will be able to add this CSS code to our CSS file so that all of the pages
+will have the same taskbar-->
+<style>
+
+  /* this section will have to be added to the Styles.css file*/ 
+  /* How the text inside is displayed*/
+  .taskbar a {
+    border: 2px solid #307ADB;
+    margin-left: .5%;
+    border-radius: 5%;
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /*This section descibes the behavior of the taskbar when we are hovering over it*/
+  .taskbar a:hover {
+    background-color: #255EA8;
+    border-color: #14335C;
+    color: black;
+    color: white;
+  }
+/* to put the logo on the rigth place
+  .taskbar a.logo{
+    float: right;
+
+  }
+  
+  /* behavior of the taskbar based on the page that we are currently on*/
+  .taskbar a.active {
+    background-color: #14335C;
+    color: white;
+  }
+</style>
+
+
+
+
+
+</body>
+</html>
+
