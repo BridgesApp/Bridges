@@ -30,3 +30,115 @@ p {
     font-family: 'Apple';
     font-weight: normal;
 }
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    max-width: 1170px;
+
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer{
+    font-family: 'Apple';
+    font-weight: normal;
+    background-color: #14335C;
+    padding: 70px 0;
+}
+
+.footer-col h5{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 450;
+    position: relative;
+}
+
+body{
+    line-height: 1.5;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    color: rgb(167, 155, 155);
+    display: block;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-col ul li a:hover{
+    color: white;
+    padding-left: 5px;
+
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #307ADB;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    color: #ffffff;
+    transition: all 0.25s ease-in-out;
+}
+
+.footer-col .logos a{
+    position: relative;
+    text-align:center;
+}
+
+
+.footer-col .social-links a:hover{
+    color: #14335C;
+    background-color: white;
+}
+
+.footer-col h5::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -10px;
+    background-color: #855E09;
+    height: 2px;
+    width: 50px;
+    box-sizing: border-box;
+}
+
+@media(max-width: 767px){
+    .footer-col {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col {
+        width: 100%;
+    }
+}
