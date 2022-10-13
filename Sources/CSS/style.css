@@ -65,6 +65,17 @@ ul{
     line-height: 1;
 }
 
+.waiting{
+    font-family: 'Apple';
+    font-weight: normal;
+    background-color: #cc1515;
+    line-height: 1;
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
+
+
+
 .footer-col h5{
     font-size: 18px;
     color: white;
