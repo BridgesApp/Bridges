@@ -61,14 +61,15 @@ ul{
     font-family: 'Apple';
     font-weight: normal;
     background-color: #14335C;
-    padding: 70px 0;
+    padding: 50px 0;
+    line-height: 1;
 }
 
 .footer-col h5{
     font-size: 18px;
     color: white;
     margin-bottom: 30px;
-    font-weight: 450;
+    font-weight: 400;
     position: relative;
 }
 
@@ -102,6 +103,7 @@ body{
     width: 40px;
     background-color: #307ADB;
     margin: 0 10px 10px 0;
+    margin-top: 20px;
     text-align: center;
     line-height: 40px;
     border-radius: 50px;
@@ -119,6 +121,7 @@ body{
     color: #14335C;
     background-color: white;
 }
+
 
 .footer-col h5::before{
     position: absolute;
