@@ -249,7 +249,9 @@ body {
 .headerbutton {
     font-family: 'Apple';
     font-size: 20px;
-    border-radius: 30px;
+    height: 45px;
+    width: 130px;
+    border-radius: 10px;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
