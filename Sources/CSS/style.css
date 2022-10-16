@@ -217,7 +217,7 @@ body {
     background: #14335C;
     box-shadow: 0 0 10px gray;
     margin: 0;
-    padding: 5px 0;
+    padding: 5px 10px;
     border-radius: 2;
     display: flex;
     justify-content: flex-end;
