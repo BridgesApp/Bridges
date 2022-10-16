@@ -233,12 +233,12 @@ body {
 
 .navigation-item a {
     text-decoration: none;
-    color: white;
+    color: rgb(187, 173, 173);
     transition: all 0.17s ease-in;
 }
 
 .navigation-item a:hover {
- color: rgb(23, 26, 26);
+ color: white;
 }
 
 .navigation-item:first-child {
