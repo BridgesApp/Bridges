@@ -16,22 +16,14 @@
 -->
 <!--Will have to add the logo in the taskbar-->
 <div class="taskbar">
-    <a href="./index"><img src="/Sources/Images/LogoBlack.png" alt="Bridges logo" style="width:50px;"></a>
+    <b class="logo" href="./index"><img src="/Sources/Images/LogoBlack.png" alt="Bridges logo" style="width:50px;"></b>
     <a href="./index">Home</a>
     <a href="./about-us" >About us</a>
     <a href="./features" >Features Page</a> 
-    <a class=".active" href="./reviews" >Reviews / Testimonials</a>
+    <a class="active" href="./reviews" >Reviews / Testimonials</a>
     <a href="./terms-of-service" >Terms of service</a>
     <a href="./faq" >F.A.Q</a>
     <a href="./sign-up" >Sign up!</a>
-  
-    
-    
-    
-    
-   
-
-
 </div>
 <!-- Creating a division makes adding CSS much easier, we will be able to add this CSS code to our CSS file so that all of the pages
 will have the same taskbar-->
@@ -39,6 +31,14 @@ will have the same taskbar-->
 
   /* this section will have to be added to the Styles.css file*/ 
   /* How the text inside is displayed*/
+
+  .taskbar b{
+    float: left;
+    border: none;
+    margin: 2%;
+
+  }
+
   .taskbar a {
     border: 2px solid #307ADB;
     margin-left: .5%;
@@ -50,7 +50,9 @@ will have the same taskbar-->
     text-decoration: none;
     font-size: 17px;
   }
-  
+  .taskbar b.logo {
+    border: none
+  }
   /*This section descibes the behavior of the taskbar when we are hovering over it*/
   .taskbar a:hover {
     background-color: #255EA8;
@@ -59,7 +61,12 @@ will have the same taskbar-->
     color: white;
   }
 
-  
+  .taskbar a.logo:hover {
+    background-color: none;
+    color: none;
+    border-color: none;
+    color: none;
+  }
   
   /* behavior of the taskbar based on the page that we are currently on*/
   .taskbar a.active {
@@ -74,4 +81,3 @@ will have the same taskbar-->
 
 </body>
 </html>
-
