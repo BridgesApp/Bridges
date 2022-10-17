@@ -42,7 +42,7 @@ p {
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -342,44 +342,39 @@ body {
 
 .main-section {
     padding-top: 130px;
-    padding-bottom: 150px;
-    color: black;
+    padding-bottom: 300px;
+    color: white;
 }
 
 .main-image{
-    /*background-image: url("/Sources/Images/Artboard\ 2.png");
-    background-color: white;*/
-    background-position: center;
-    background-size: 40%;
-    background-position: right;
-    display: flex;
-    justify-content: flex-end;
+    /*background-image: url("/Sources/Images/Artboard\ 2.png");*/
+    background-color: #3b43f2;
+    z-index: -2;
     position: relative;
-    background-repeat: no-repeat;
 }
 
-.main-section h1{
+.main-title{
     position: relative;
-    border-left: none;
-    align-items: left;
+    align-items: center;
     display: flex;
-    justify-content: flex-start;
-    padding-left: 30px
+    justify-content: left;
+    margin-top: 5%;
+    margin-left: 15%;
 }
 
-.main-section p{
-    width: 53%;
+.main-text{
+    width: 30%;
     position: relative;
     display: flex;
     justify-content: flex-start;
     text-align: left;
-    padding-left: 30px
+    margin-left: 15%;
 }
 
 .test{
     position: absolute;
     z-index: -1;
-    height: 105%;
-    right: 100px;
+    height: 100%;
+    right: 00px;
     top: 2px;
 }
