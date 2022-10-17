@@ -357,12 +357,11 @@ body {
 }
 
 .main-section h1{
-    margin-block-end: 20px 15px;
     position: relative;
     align-items: left;
     display: flex;
     justify-content: flex-start;
-    padding-left: 80px;
+    padding-left: 10px;
 }
 
 .main-section p{
@@ -371,6 +370,6 @@ body {
     position: relative;
     display: flex;
     justify-content: flex-start;
-    padding-left: 80px;
+    padding-left: 10px;
     text-align: left;
 }
