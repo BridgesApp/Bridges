@@ -37,6 +37,10 @@ p {
     padding: 0;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -286,9 +290,7 @@ body {
     font-family: 'Apple';
     background: #14335C;
     box-shadow: 0 0 10px gray;
-    margin: 0;
     padding: 5px 10px;
-    border-radius: 2;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -345,10 +347,10 @@ body {
 }
 
 .main-image{
-    background-image: url("/Sources/Images/Artboard\ 2.png");
-    background-color: white;
+    /*background-image: url("/Sources/Images/Artboard\ 2.png");
+    background-color: white;*/
     background-position: center;
-    background-size: 50%;
+    background-size: 40%;
     background-position: right;
     display: flex;
     justify-content: flex-end;
@@ -358,18 +360,26 @@ body {
 
 .main-section h1{
     position: relative;
+    border-left: none;
     align-items: left;
     display: flex;
     justify-content: flex-start;
-    padding-left: 10px;
+    padding-left: 30px
 }
 
 .main-section p{
-    margin-block-end: 20px 15px;
     width: 53%;
     position: relative;
     display: flex;
     justify-content: flex-start;
-    padding-left: 10px;
     text-align: left;
+    padding-left: 30px
+}
+
+.test{
+    position: absolute;
+    z-index: -1;
+    height: 105%;
+    right: 100px;
+    top: 2px;
 }
