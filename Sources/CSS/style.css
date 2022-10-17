@@ -206,11 +206,71 @@ body {
     }
 }
 
-@media(max-width: 863px){
-    .navigation li:nth-child(2), li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(6){
+@media(max-width: 870px){
+    .navigation li:nth-child(2){
+        opacity: 0;
+      }
+}
+
+@media(max-width: 850px){
+    .navigation li:nth-child(2){
         display: none;
       }
 }
+
+@media(max-width: 790px){
+    .navigation li:nth-child(3){
+        opacity: 0;
+      }
+}
+
+@media(max-width: 770px){
+    .navigation li:nth-child(3){
+        display: none;
+      }
+}
+
+@media(max-width: 660px){
+    .navigation li:nth-child(4){
+        opacity: 0;
+      }
+}
+
+@media(max-width: 650px){
+    .navigation li:nth-child(4){
+        display: none;
+      }
+}
+
+@media(max-width: 550px){
+    .navigation li:nth-child(5){
+        opacity: 0;
+      }
+}
+
+@media(max-width: 530px){
+    .navigation li:nth-child(5){
+        display: none;
+      }
+}
+
+@media(max-width: 455px){
+    .navigation li:nth-child(6){
+        opacity: 0;
+      }
+}
+
+@media(max-width: 445px){
+    .navigation li:nth-child(6){
+        display: none;
+      }
+}
+
+.navigation li:nth-child(2), li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(6){
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    transition: all 0.3s ease-in-out;
+  }
 
 @media(max-width: 950px){
 
@@ -279,18 +339,21 @@ body {
 }
 
 .main-section {
-    padding-top: 80px;
-    padding-bottom: 150px;;
-
+    padding-top: 130px;
+    padding-bottom: 150px;
     color: black;
 }
 
 .main-image{
-    background-image: url("/Sources/Images/MAIN\ PAGE.png");
-    height: 500px;
+    background-image: url("/Sources/Images/Artboard\ 2.png");
+    background-color: white;
     background-position: center;
-    background-size: cover;
+    background-size: 65%;
+    background-position: right;
+    display: flex;
+    justify-content: flex-end;
     position: relative;
+    background-repeat: no-repeat;
 }
 
 .main-section h1{
@@ -301,11 +364,10 @@ body {
     justify-content: flex-start;
     padding-left: 80px;
 }
-.main-section p{
-    width: 53%
-}
+
 .main-section p{
     margin-block-end: 20px 15px;
+    width: 53%;
     position: relative;
     display: flex;
     justify-content: flex-start;
