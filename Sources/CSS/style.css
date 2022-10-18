@@ -343,12 +343,12 @@ body {
 .main-section {
     padding-top: 130px;
     padding-bottom: 300px;
-    color: black;
+    color: white;
 }
 
 .main-image{
     /*background-image: url("/Sources/Images/Artboard\ 2.png");*/
-    background-color: white;
+    background-color: #3b43f2;
     z-index: -2;
     position: relative;
 }
@@ -375,6 +375,6 @@ body {
     position: absolute;
     z-index: -1;
     height: 100%;
-    right: 100px;
+    right: 00px;
     top: 2px;
 }
