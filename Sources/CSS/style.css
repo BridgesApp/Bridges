@@ -343,12 +343,12 @@ body {
 .main-section {
     padding-top: 130px;
     padding-bottom: 300px;
-    color: white;
+    color: black;
 }
 
 .main-image{
     /*background-image: url("/Sources/Images/Artboard\ 2.png");*/
-    background-color: #3b43f2;
+    background-color: white;
     z-index: -2;
     position: relative;
 }
@@ -359,7 +359,7 @@ body {
     display: flex;
     justify-content: left;
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 25%;
 }
 
 .main-text{
@@ -368,13 +368,13 @@ body {
     display: flex;
     justify-content: flex-start;
     text-align: left;
-    margin-left: 15%;
+    margin-left: 25%;
 }
 
 .test{
     position: absolute;
     z-index: -1;
     height: 100%;
-    right: 00px;
+    right: 100px;
     top: 2px;
 }
