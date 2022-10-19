@@ -1,78 +1,99 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>BridgesApp - Home</title>
   <link rel="icon" type="image/png" href="./Sources/Images/applogofavicon.png">
+  <link rel="stylesheet" href="/Sources/CSS/style.css">
+  <script src="https://kit.fontawesome.com/f04ad4d59d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-
-<h1>Review!</h1>
-
-
-<!--On every other page, the "<a class="active" href="/.index">Home</a>" will have to be modified so that our current page is active-->
-<!--
-  for example, if we are on the about us, <a class="active" href="/.index">Home</a> -> <a href="./index>Home</a>" 
-  and <a href="./about-us" >About us</a> -> <a class="active" href="/.about-us">About us</a>
--->
-<!--Will have to add the logo in the taskbar-->
-<div class="taskbar">
-    <b class="logo" href="./index"><img src="/Sources/Images/LogoBlack.png" alt="Bridges logo" style="width:50px;"></b>
-    <a href="./index">Home</a>
-    <a href="./about-us" >About us</a>
-    <a href="./features" >Features Page</a> 
-    <a class="active" href="./reviews" >Reviews / Testimonials</a>
-    <a href="./terms-of-service" >Terms of service</a>
-    <a href="./faq" >F.A.Q</a>
-    <a href="./sign-up" >Sign up!</a>
-</div>
-<!-- Creating a division makes adding CSS much easier, we will be able to add this CSS code to our CSS file so that all of the pages
-will have the same taskbar-->
-<style>
-
-  /* this section will have to be added to the Styles.css file*/ 
-  /* How the text inside is displayed*/
-
-  /* behavior of the logo in the topnav*/
-  .taskbar b{
-    float: left;
-    border: none;
-    margin: 2%;
-
-  }
-/* behavior of the buttons in the top nav*/
-  .taskbar a {
-    border: 2px solid #307ADB;
-    margin-left: .5%;
-    border-radius: 5%;
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  .taskbar b.logo {
-    border: none
-  }
-  /*This section descibes the behavior of the taskbar when we are hovering over it*/
-  .taskbar a:hover {
-    background-color: #255EA8;
-    border-color: #14335C;
-    color: black;
-    color: white;
-  }
+  <!-- ----------------- Header Start ----------------- -->
+  <header>
+    <nav>
+      <ul class="navigation">
+        <li class="navigation-item">
+          <a href="./index"><img class="header-logo" src="/Sources/Images/LogoWhite2.png" alt="Bridges Logo"
+              style="width:100px;"></a>
+        </li>
+        <li class="navigation-item">
+          <a href="./index">Home</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./about-us">About Us</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./features">Features</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./faq">F.A.Q</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./reviews">Reviews</a>
+        </li>
+        <li class="navigation-item">
+          <a href="./sign-up"><button class="headerbutton">Sign up</button></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- ----------------- Header End ----------------- -->
 
 
-  /* behavior of the taskbar based on the page that we are currently on*/
-  .taskbar a.active {
-    background-color: #14335C;
-    color: white;
-  }
-</style>
 
-
+  <!-- ----------------- Footer Start ----------------- -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <div class="logos">
+            <a href="./index"><img src="/Sources/Images/LogoWhite.png" alt="Bridges logo" style="width:200px;"></a>
+          </div>
+          <a href="https://www.apple.com/app-store/"><img src="/Sources/Images/appstore.png" alt="Bridges logo"
+              style="width:200px;"></a>
+        </div>
+        <div class="footer-col">
+          <h5>Product</h5>
+          <ul>
+            <li><a href="https://www.apple.com/app-store/">iOS App</a></li>
+            <li><a href="https://play.google.com/store/apps">Android App</a></li>
+            <li><a href="https://github.com/BridgesApp/bridgesapp.github.io">Developers</a></li>
+            <li><a href="./features">Features</a></li>
+            <li><a href="./sign-up">Sign up</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Business Information</h5>
+          <ul>
+            <li><a href="./about-us">About us</a></li>
+            <li><a href="./reviews">Reviews</a></li>
+            <li><a href="./faq">F.A.Q.</a></li>
+            <li><a href="mailto:support@bridgesapp.ca?Subject=Support Inquiry">Contact us</a></li>
+            <li><a href="./terms-of-service">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li><a
+                href="https://www.google.com/maps/dir//Tabaret,+75+Laurier+Ave.+E,+Ottawa,+ON+K1N+6N6/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4cce0506ec00c2bb:0xfc4e6e2329cb985f?sa=X&ved=2ahUKEwjHvv-8zd36AhWTlIkEHTSgA38QwwV6BAgIEAM">Address:
+                75 Laurier Ave E, Ottawa, ON K1N 6N5</a></li>
+            <li><a href="mailto:support@bridgesapp.ca?Subject=Support Inquiry">Email : support@bridgesapp.ca</a></li>
+            <li> ㅤ </li>
+          </ul>
+          <div class="social-links">
+            <a href="https://github.com/BridgesApp/bridgesapp.github.io"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www2.uottawa.ca/en"><i class="fa-sharp fa-solid fa-building-columns"></i></a>
+            <a href="mailto:support@bridgesapp.ca?Subject=Support Inquiry"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+  </footer>
+  <!-- ----------------- Footer End ----------------- -->
 
 
 
 </body>
+
 </html>
