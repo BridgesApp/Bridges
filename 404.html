@@ -1,1 +1,395 @@
-<h1>404 error!</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/Sources/CSS/style.css">
+</head>
+
+<body>
+    <style>
+        @font-face {
+            font-family: 'Apple';
+            font-weight: normal;
+            src: url("/Sources/Fonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
+        }
+
+        @font-face {
+            font-family: 'Apple';
+            font-weight: bold;
+            src: url("/Sources/Fonts/SFPRODISPLAYBOLD.OTF") format("opentype");
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Apple';
+            font-weight: bold;
+        }
+
+        h5 {
+            text-align: left;
+            font-size: 15px;
+            font-family: 'Apple';
+            font-weight: bold;
+        }
+
+        p {
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Apple';
+            font-weight: normal;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        ::-webkit-scrollbar{
+            display: none;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .footer-col {
+            width: 25%;
+            padding: 0 15px;
+        }
+
+        .footer {
+            font-family: 'Apple';
+            font-weight: normal;
+            background-color: #14335C;
+            padding: 50px;
+            line-height: 1;
+
+        }
+
+        .waiting {
+            font-family: 'Apple';
+            font-weight: normal;
+            background-color: #255EA8;
+            line-height: 1;
+            padding-top: 55px;
+            padding-bottom: 55px;
+        }
+
+        .waiting h1 {
+            color: white;
+            padding-top: 10px;
+            /*-webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;*/
+        }
+
+        .waiting .signup-button {
+            margin: 0;
+            padding: 0;
+            height: 170px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+        .waiting .stores {
+            margin-top: -30px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            padding: 0px;
+        }
+
+        .waiting {
+            color: white
+        }
+
+        .button {
+            margin-top: -30px;
+            font-family: 'Apple';
+            font-size: 30px;
+            font-weight: bold;
+            background: white;
+            width: 200px;
+            height: 70px;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-property: box-shadow, transform;
+            transition-property: box-shadow, transform;
+        }
+
+
+        .button:hover,button:focus,button:active {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+        }
+
+        .footer-col h5 {
+            font-size: 18px;
+            color: white;
+            margin-bottom: 30px;
+            font-weight: 400;
+            position: relative;
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .footer-col ul li:not(:last-child) {
+            margin-bottom: 20px;
+        }
+
+
+        .footer-col ul li a {
+            font-size: 16px;
+            text-decoration: none;
+            color: white;
+            font-weight: 300;
+            color: rgb(167, 155, 155);
+            display: block;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .footer-col ul li a:hover {
+            color: white;
+            padding-left: 5px;
+
+        }
+
+        .footer-col .social-links a {
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            background-color: #255EA8;
+            margin: 0 10px 10px 0;
+            margin-top: 20px;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50px;
+            color: #ffffff;
+            transition: all 0.25s ease-in-out;
+        }
+
+        .footer-col .logos a {
+            position: relative;
+            text-align: center;
+        }
+
+
+        .footer-col .social-links a:hover {
+            color: #14335C;
+            background-color: white;
+        }
+
+        .footer-col h5::before {
+            position: absolute;
+            content: '';
+            left: 0;
+            bottom: -10px;
+            background-color: #855E09;
+            height: 2px;
+            width: 50px;
+            box-sizing: border-box;
+        }
+
+        @media(max-width: 800px) {
+            .footer-col {
+                width: 50%;
+                margin-bottom: 50px;
+            }
+        }
+
+        @media(max-width: 870px){
+            .navigation li:nth-child(2){
+                opacity: 0;
+            }
+        }
+
+        @media(max-width: 850px){
+            .navigation li:nth-child(2){
+                display: none;
+            }
+        }
+
+        @media(max-width: 790px){
+            .navigation li:nth-child(3){
+                opacity: 0;
+            }
+        }
+
+        @media(max-width: 770px){
+            .navigation li:nth-child(3){
+                display: none;
+            }
+        }
+
+        @media(max-width: 660px){
+            .navigation li:nth-child(4){
+                opacity: 0;
+            }
+        }
+
+        @media(max-width: 650px){
+            .navigation li:nth-child(4){
+                display: none;
+            }
+        }
+
+        @media(max-width: 550px){
+            .navigation li:nth-child(5){
+                opacity: 0;
+            }
+        }
+
+        @media(max-width: 530px){
+            .navigation li:nth-child(5){
+                display: none;
+            }
+        }
+
+        @media(max-width: 455px){
+            .navigation li:nth-child(6){
+                opacity: 0;
+            }
+        }
+
+        @media(max-width: 445px){
+            .navigation li:nth-child(6){
+                display: none;
+            }
+        }
+
+        .navigation li:nth-child(2), li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(6){
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            transition: all 0.3s ease-in-out;
+        }
+
+        @media(max-width: 950px){
+
+        }
+
+        @media(max-width: 574px) {
+            .footer-col {
+                width: 100%;
+            }
+        }
+
+        .navigation {
+            font-family: 'Apple';
+            background: #14335C;
+            box-shadow: 0 0 10px gray;
+            padding: 5px 10px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            font-size: 20px;
+            position: relative;
+        }
+
+        .navigation-item {
+            list-style: none;
+            margin-right: 40px;
+        }
+
+        .navigation-item a {
+            text-decoration: none;
+            color: rgb(187, 173, 173);
+            transition: all 0.17s ease-in;
+        }
+
+        .navigation-item a:hover {
+        color: white;
+        }
+
+        .navigation-item:first-child {
+            margin-right: auto;
+            margin-left: 20px;
+        }
+
+        .headerbutton {
+            font-family: 'Apple';
+            font-size: 20px;
+            height: 45px;
+            width: 130px;
+            border-radius: 10px;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-property: box-shadow, transform;
+            transition-property: box-shadow, transform;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .headerbutton:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            background:#A16E00;
+            color: white;
+        }
+
+        .main-section {
+            padding-top: 130px;
+            padding-bottom: 300px;
+            color: white;
+        }
+
+        .main-image{
+            /*background-image: url("/Sources/Images/Artboard\ 2.png");*/
+            background-color: #3b43f2;
+            z-index: -2;
+            position: relative;
+        }
+
+        .main-title{
+            position: relative;
+            align-items: center;
+            display: flex;
+            justify-content: left;
+            margin-top: 5%;
+            margin-left: 15%;
+        }
+
+        .main-text{
+            width: 30%;
+            position: relative;
+            display: flex;
+            justify-content: flex-start;
+            text-align: left;
+            margin-left: 15%;
+        }
+
+        .test{
+            position: absolute;
+            z-index: -1;
+            height: 100%;
+            right: 00px;
+            top: 2px;
+        }
+    </style>
+
+    <h1>404: Page Not Found :(</h1>
+</body>
+
+</html>
