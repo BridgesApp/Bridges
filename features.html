@@ -1,1 +1,222 @@
-<h1>Features page!</h1>
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="/Sources/CSS/style.css">
+</head>
+
+<html>
+
+    <style>
+        .feature-block {
+            /* div for blocks containing each feature */
+            display: flex; 
+            justify-content: space-around;
+            width: 100%;
+            height: 55vh;
+        }
+        .seperator {
+            /* div for black seperation between each feature */
+            width: 100%;
+            height: 5px;
+            background-color: black;
+        }
+
+        .block {
+            /* div for the individual elements inside each feature-block (images and text) */
+            display: inline-block;
+            position: relative;
+            width: 40%;
+            height: 100%;
+        }
+
+        /* Styling for text and images inside the feature blocks */
+        .feature-block h1 {
+            position: relative;
+            font-size: 35px;
+            height: 32%;
+            top: 15%;
+        }
+        .feature-block p {
+            position: relative;
+            font-size: 20px;
+            height: 55%;
+            top: 15%;
+        }
+        .feature-block img {
+            position: relative;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+        }
+    </style>
+
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li class="navigation-item">
+                <a href="./index"><img class="header-logo" src="/Sources/Images/LogoWhite2.png" alt="Bridges Logo"
+                    style="width:100px;"></a>
+                </li>
+                <li class="navigation-item">
+                    <a href="./index">Home</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="./about-us">About Us</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="./features">Features</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="./faq">F.A.Q</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="./reviews">Reviews</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="./sign-up"><button class="headerbutton">Sign up</button></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <div class="seperator"></div>
+
+        <!--   Feature 1   -->
+        <div class="feature-block" style="background-image: linear-gradient(80deg, #307adb, white);">
+            <div class="block">
+                <h1>
+                    Everything is Supported
+                </h1>
+                <p>
+                    Any and all contacts can be stored and shared!
+                    including social media handles, phone numbers or even
+                    email addresses for more formal affairs.
+                </p>
+            </div>
+            <div class="block">
+                <img scr="test.jpg" alt="Image">
+            </div>
+        </div>
+        <div class="seperator"></div>
+
+        <!--   Feature 2   -->
+        <div class="feature-block" style="background-image: linear-gradient(80deg, black, #307adb);">
+            <div class="block">
+                <img scr="test.jpg" alt="Image">
+            </div>
+            <div class="block">
+                <h1>
+                    NFC Technology
+                </h1>
+                <p>
+                    Using near field communication technology,
+                    all it takes is a tap between 2 phones to instantly share contacts
+                    making it perfect for parties or networking events.
+                </p>
+            </div>
+        </div>
+        <div class="seperator"></div>
+
+        <!--   Feature 3   -->
+        <div class="feature-block" style="background-image: linear-gradient(80deg, #307adb, white);">
+            <div class="block">
+                <h1>
+                    QR Compatability
+                </h1>
+                <p>
+                    With the support of QR codes, you can even have your contact on a printed piece of paper.
+                    Game changing for advertising or business cards.
+                </p>
+            </div>
+            <div class="block">
+                <img scr="test.jpg" alt="Image">
+            </div>
+        </div>
+        <div class="seperator"></div>
+
+        <!--   Feature 4   -->
+        <div class="feature-block" style="background-image: linear-gradient(80deg, black, #307adb);">
+            <div class="block">
+                <img scr="test.jpg" alt="Image">
+            </div>
+            <div class="block">
+                <h1>
+                    Personalisation
+                </h1>
+                <p>
+                    Make your profile yours. Modify which information will be shared by default,
+                    write a biography, include a preffered method of contact 
+                    and even share your nicknames or pronouns.
+                </p>
+            </div>
+        </div>
+        <div class="seperator"></div>
+
+        <!--   Feature 5   -->
+        <div class="feature-block" style="background-image: linear-gradient(80deg, #307adb, white);">
+            <div class="block">
+                <h1>
+                    Automatic Updates
+                </h1>
+                <p>
+                    Bridges will automatically let your friends know when any of your contacts have changed.
+                    No more need to go through the trouble of telling everyone when you change your phone number.
+                </p>
+            </div>
+            <div class="block">
+                <img scr="test.jpg" alt="Image">
+            </div>
+        </div>
+        <div class="seperator"></div>
+    </body>
+
+    <footer class="footer">
+        <div class="container">
+        <div class="row">
+            <div class="footer-col">
+            <div class="logos">
+                <a href="./index"><img src="/Sources/Images/LogoWhite.png" alt="Bridges logo" style="width:200px;"></a>
+            </div>
+            <a href="https://www.apple.com/app-store/"><img src="/Sources/Images/appstore.png" alt="Bridges logo"
+                style="width:200px;"></a>
+            </div>
+            <div class="footer-col">
+            <h5>Product</h5>
+            <ul>
+                <li><a href="https://www.apple.com/app-store/">iOS App</a></li>
+                <li><a href="https://play.google.com/store/apps">Android App</a></li>
+                <li><a href="https://github.com/BridgesApp/bridgesapp.github.io">Developers</a></li>
+                <li><a href="./features">Features</a></li>
+                <li><a href="./sign-up">Sign up</a></li>
+            </ul>
+            </div>
+            <div class="footer-col">
+            <h5>Business Information</h5>
+            <ul>
+                <li><a href="./about-us">About us</a></li>
+                <li><a href="./reviews">Reviews</a></li>
+                <li><a href="./faq">F.A.Q.</a></li>
+                <li><a href="mailto:support@bridgesapp.ca?Subject=Support Inquiry">Contact us</a></li>
+                <li><a href="./terms-of-service">Terms of Service</a></li>
+            </ul>
+            </div>
+            <div class="footer-col">
+            <h5>Contact</h5>
+            <ul>
+                <li><a
+                    href="https://www.google.com/maps/dir//Tabaret,+75+Laurier+Ave.+E,+Ottawa,+ON+K1N+6N6/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4cce0506ec00c2bb:0xfc4e6e2329cb985f?sa=X&ved=2ahUKEwjHvv-8zd36AhWTlIkEHTSgA38QwwV6BAgIEAM">Address:
+                    75 Laurier Ave E, Ottawa, ON K1N 6N5</a></li>
+                <li><a href="mailto:support@bridgesapp.ca?Subject=Support Inquiry">Email : support@bridgesapp.ca</a></li>
+                <li> ㅤ </li>
+            </ul>
+            <div class="social-links">
+                <a href="https://github.com/BridgesApp/bridgesapp.github.io"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www2.uottawa.ca/en"><i class="fa-sharp fa-solid fa-building-columns"></i></a>
+                <a href="mailto:support@bridgesapp.ca?Subject=Support Inquiry"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            </div>
+        </div>
+    </footer>
+
+</html>
