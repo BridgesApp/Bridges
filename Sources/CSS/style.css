@@ -78,11 +78,16 @@ ul {
     padding-bottom: 55px;
 }
 
+.waiting p{
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+}
+
 .waiting h1 {
     color: white;
     padding-top: 10px;
-    /*-webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;*/
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
 }
 
 .waiting .signup-button {
@@ -92,6 +97,8 @@ ul {
     justify-content: center;
     align-items: center;
     display: flex;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
 }
 
 .waiting .stores {
@@ -100,6 +107,8 @@ ul {
     display: flex;
     justify-content: center;
     padding: 0px;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
 }
 
 .waiting {
@@ -207,6 +216,9 @@ body {
     .footer-col {
         width: 50%;
         margin-bottom: 50px;
+    }
+    .sponsorimage{
+        width: 0%;
     }
 }
 
@@ -379,41 +391,26 @@ body {
     top: 60px;
 }
 
-
-.sponsors{
-    background-color: #d6e7f5;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    height: 250px;
-}
-
-.sponsors p{
-    padding-top: 30px;
-    font-size: 20px;
-    font-family: 'Apple';
-    color: rgb(36, 32, 32);
-    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.1));
-    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.1));
-}
-
-.sponsorimage{
-    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.4));
-    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.4));
-    height: 200px;
-    position: relative;
-    display: inline-block;
-    justify-content: center;
-    padding: 60px;
-}
-
 .appgoogle {
     align-items: center;
     display: flex;
     justify-content: left;
-    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.4));
-    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.4));
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
     padding-top: 30px;
     padding-left: 17%;
+}
+
+.test{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #255EA8;
+    margin: 0 10px 10px 0;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    color: #ffffff;
+    transition: all 0.25s ease-in-out;
 }
