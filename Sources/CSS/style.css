@@ -342,13 +342,13 @@ body {
 
 .main-section {
     padding-top: 130px;
-    padding-bottom: 300px;
-    color: white;
+    padding-bottom: 200px;
+    color: black;
 }
 
 .main-image{
     /*background-image: url("/Sources/Images/Artboard\ 2.png");*/
-    background-color: #3b43f2;
+    background-color: #f4f4f4;
     z-index: -2;
     position: relative;
 }
@@ -359,7 +359,7 @@ body {
     display: flex;
     justify-content: left;
     margin-top: 5%;
-    margin-left: 25%;
+    margin-left: 20%;
 }
 
 .main-text{
@@ -368,13 +368,52 @@ body {
     display: flex;
     justify-content: flex-start;
     text-align: left;
-    margin-left: 25%;
+    margin-left: 20%;
 }
 
-.test{
+.image{
     position: absolute;
     z-index: -1;
-    height: 100%;
+    height: 90%;
     right: 00px;
-    top: 2px;
+    top: 60px;
+}
+
+
+.sponsors{
+    background-color: #d6e7f5;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+}
+
+.sponsors p{
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Apple';
+    color: rgb(36, 32, 32);
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.1));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.1));
+}
+
+.sponsorimage{
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.4));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.4));
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    padding: 60px;
+}
+
+.appgoogle {
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.4));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.4));
+    padding-top: 30px;
+    padding-left: 17%;
 }
