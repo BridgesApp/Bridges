@@ -224,7 +224,7 @@ body {
         font-size: 20px;
     }
     .main-image .appgoogle {
-        display: none;
+        display:none
     }
     .main-image .main-title {
         font-size: 50px;
@@ -415,7 +415,7 @@ body {
     display: flex;
     justify-content: left;
     margin-top: 5%;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .main-text{
@@ -424,7 +424,7 @@ body {
     display: flex;
     justify-content: flex-start;
     text-align: left;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .image{
@@ -441,8 +441,8 @@ body {
     justify-content: left;
     -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
     filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
-    padding-top: 30px;
-    padding-left: 17%;
+    padding-top: 50px;
+    padding-left: 12%;
 }
 
 .sponsors{
