@@ -217,11 +217,55 @@ body {
         width: 50%;
         margin-bottom: 50px;
     }
-    .sponsorimage{
-        width: 0%;
+}
+
+@media(max-width: 1700px) {
+    .main-image .main-text {
+        font-size: 20px;
+    }
+    .main-image .appgoogle {
+        display: none;
+    }
+    .main-image .main-title {
+        font-size: 50px;
     }
 }
 
+@media(max-width: 1400px) {
+    .main-image .main-text {
+        font-size: 15px;
+    }
+    .main-image .appgoogle {
+        display: none;
+    }
+    .main-image .main-title {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 1150px) {
+    .main-image .main-text {
+        font-size: 15px;
+        width: 30%;
+    }
+    .main-image .appgoogle {
+        display: none;
+    }
+    .main-image .main-title {
+        font-size: 30px;
+    }
+}
+@media(max-width: 900px) {
+    .main-image .main-text {
+        display: none;
+    }
+    .main-image .appgoogle {
+        display: none;
+    }
+    .main-image .main-title {
+        display: 50px;
+    }
+}
 @media(max-width: 870px){
     .navigation li:nth-child(2){
         opacity: 0;
@@ -375,7 +419,7 @@ body {
 }
 
 .main-text{
-    width: 30%;
+    width: 40%;
     position: relative;
     display: flex;
     justify-content: flex-start;
