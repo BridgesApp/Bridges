@@ -500,7 +500,6 @@ body {
     padding: 30px;
 }
 .feature{
-    padding: 70px 30px;
     text-align: center;
     background: linear-gradient(0deg, #A16E00 10px, transparent 10px);
     box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
@@ -509,6 +508,7 @@ body {
     background-repeat: no-repeat;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
+    padding: 50px;
 }
 
 .feature .icon{
@@ -520,6 +520,8 @@ body {
     place-items: center;
     border-radius: 60px;
     margin: auto;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
 }
 
 .feature .icon2{
@@ -531,6 +533,8 @@ body {
     margin: auto;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.4));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.4));
 }
 
 .icon2:hover {
@@ -541,6 +545,7 @@ body {
 .feature h2{
     font-family: 'Apple';
     padding: 30px;
+    
 }
 
 .feature:hover {
@@ -560,7 +565,8 @@ body {
     font-family: 'Apple';
     text-align: center;
     width: 100%;
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -569,6 +575,7 @@ body {
     }
     .column{
         width: 100%;
+        margin-bottom: 0px;
     }
 }
 
@@ -576,12 +583,10 @@ body {
     features {
         padding: 1em;
     }
-    .feature {
-        padding: 5em 2em;
-    }
     .column {
         flex: 0 0 33.33%;
         max-width: 33.33%;
-        padding: 0 1em;
+        padding: 0 40px;
+        margin-bottom: 70px;
     }
 }
