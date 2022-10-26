@@ -597,3 +597,101 @@ body {
         margin-bottom: 70px;
     }
 }
+
+/*------------------review section------------------*/
+#reviews{
+    display: center;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+}
+.review-heading
+{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.review-heading h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    background-color: #14335C;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.review-heading span{
+    font-size: 1.3rem;
+    color: #14335C;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.review-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: warp;
+    width: 100%;
+}
+.review-box{
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:center ;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.name-user{
+    display: flex;
+    flex-direction: column;
+
+}
+.name-user strong{
+    color: #14335C;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    margin-right: 5px;
+}
+.name-user span{
+    color: #39577F;
+    font-size: 0.8rem;
+}
+.reviews{
+    color: #14335C;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.client-comment p{
+    font-size: 0.9rem;
+    color: #14335C;
+}
+
+.review-box:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
