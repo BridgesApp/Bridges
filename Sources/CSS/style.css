@@ -231,6 +231,12 @@ body {
     }
 }
 
+@media(min-width: 1400px) {
+    .main-image .appgoogle2 {
+        display: none;
+    }
+}
+
 @media(max-width: 1150px) {
     .main-image .main-text {
         font-size: 20px;
@@ -434,6 +440,17 @@ body {
     padding-top: 50px;
     padding-left: 2%;
 }
+
+.appgoogle2 {
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+    padding-top: 40px;
+    padding-left: 2%;
+}
+
 
 .sponsors{
     background-color: #d6e7f5;
