@@ -19,6 +19,23 @@
         width: 33.33%;
         height: 200px;
       }
+     /*search bar beginning*/
+      input[type=text] {
+        width: 130px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('searchicon.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+      } /*search bar end*/
+      input[type-text]:focus{
+        width:100%;
+      }
       </style>
       <link rel="stylesheet" href="/Sources/CSS/style.css">
       <link rel="icon" type="image/png" href="./Sources/Images/applogofavicon.png">  </head>
@@ -55,9 +72,13 @@
 
 <body>
  
-<!--SEARCH BAR AREA (haven't added search bar yet)-->
+<!--SEARCH BAR AREA -->
   <div class="myDiv" style="text-align: center;">
     <p style="font-size:50px;">FAQ</p>
+     <form>
+      <input type="text" name="search"
+      placeholder="Search..">
+    </form>
   </div>
 
   <div style="width:fit;height:300px;">
