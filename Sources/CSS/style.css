@@ -713,3 +713,17 @@ body {
     height: 100px;
     margin: auto;
 }
+/*------------------FAQ section------------------*/
+.faq{
+    border:30px;
+    background-color:#307ADB;
+    height: 300px;
+    margin: auto;
+    padding: 65px 0;
+}
+.v2Div{
+    border-color: #307ADB;
+    background-color:white;
+    width: 33.33%;
+    height: 200px;
+}
