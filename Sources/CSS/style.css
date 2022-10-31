@@ -706,11 +706,11 @@ body {
     display: flex;
     height: 300px;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .child{
     width: 150px;
-    height: 100px;
+    height: 150px;
     margin: auto;
 }
 /*------------------FAQ section------------------*/
