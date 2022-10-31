@@ -709,9 +709,10 @@ body {
     justify-content: space-evenly;
 }
 .child{
-    width: 150px;
-    height: 150px;
-    margin: auto;
+    border-color: #307ADB;
+    background-color:white;
+    width: 20%;
+    height: 300px;
 }
 /*------------------FAQ section------------------*/
 .faq{
