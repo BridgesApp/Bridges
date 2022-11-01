@@ -702,7 +702,7 @@ body {
     height: 300px
     padding: 70px 0;
 }
-.column {
+.column2 {
     display: flex;
     height: 300px;
     flex-direction: row;
