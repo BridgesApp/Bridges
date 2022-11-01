@@ -713,7 +713,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     width: 90%;
-    margin: 200px 50px;
+    margin: 100px 50px;
     padding: 30px;
     white-space: nowrap;
 }
@@ -724,7 +724,7 @@ body {
 }
 .aboutpara{
     text-align:center;
-    margin:200px 100px;
+    margin:100px;
     height: 100px;
     padding: 40px 0;
     white-space: nowrap;
@@ -742,7 +742,7 @@ body {
     color: black;
     border-radius: 50px;
     cursor: pointer;
-    margin: 100px 50px;
+    margin: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -757,6 +757,7 @@ body {
 .aboutbox{
     letter-spacing: 1px;
     margin: auto;
+    margin-top: 30px;
     padding: 10px 30px;
     display: flex;
     width: 400px;
