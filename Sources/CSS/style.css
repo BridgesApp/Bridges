@@ -713,7 +713,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     width: 90%;
-    margin: 100px 50px;
+    margin: 40px 50px;
     padding: 30px;
     white-space: nowrap;
 }
@@ -724,7 +724,7 @@ body {
 }
 .aboutpara{
     text-align:center;
-    margin:100px;
+    margin:20px 0 50px 0;
     height: 100px;
     padding: 40px 0;
     white-space: nowrap;
