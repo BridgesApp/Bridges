@@ -709,10 +709,9 @@ body {
     justify-content: space-evenly;
 }
 .child{
-    border-color: #307ADB;
-    background-color:white;
     width: 20%;
     height: 300px;
+    margin: auto;
 }
 /*------------------FAQ section------------------*/
 .faq{
