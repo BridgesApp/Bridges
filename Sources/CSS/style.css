@@ -713,7 +713,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     width: 90%;
-    margin: auto;
+    margin: 200px 50px;
     padding: 30px;
     white-space: nowrap;
 }
@@ -724,14 +724,12 @@ body {
 }
 .aboutpara{
     text-align:center;
-    margin-left:100px;
-    margin-right:100px;
+    margin:200px 100px;
     height: 100px;
     padding: 40px 0;
     white-space: nowrap;
 }
 .aboutbutton{
-    margin-top: -10px;
     font-family: 'Apple';
     font-size: 20px;
     font-weight: bold;
@@ -744,7 +742,7 @@ body {
     color: black;
     border-radius: 50px;
     cursor: pointer;
-    margin: auto;
+    margin: 100px 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -773,6 +771,7 @@ body {
   text-align: center;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   border-radius: 50px;
+  margin: 30px 20px 80px 20px; 
 }
 /*------------------FAQ section------------------*/
 .faq{
