@@ -709,7 +709,7 @@ body {
     justify-content: space-evenly;
 }
 .child{
-    width: 20%;
+    width: 100%;
     height: 300px;
     margin: auto;
 }
