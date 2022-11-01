@@ -714,7 +714,7 @@ body {
     justify-content: space-evenly;
     width: 90%;
     margin: auto;
-    padding: 90px;
+    padding: 90px 10px 90px 10px;
 }
 .child{
     width: 20%;
