@@ -54,8 +54,18 @@
 
     <!-- IMAGES OF GROUP MEMBERS-->
       <div class="aboutbutton">
-        <h2 style="text-align:center;color: #14335C;">TEAM MEMBERS</h2>
+        <div class="aboutcontact" onclick="myFunction()">
+          <!--<h2 style="text-align:center;color: #14335C;" ><br>-->TEAM MEMBERS<!--</h2>-->
+          <span class="popuptext" id="myPopup"> Contact us at bridgesteam@bridgesapp.ca for further inquiries</span>
+        </div>
       </div>
+
+      <script>
+        function myFunction(){
+          var aboutcontact=document.getElementById("myPopup");
+          aboutcontact.classList.toggle("show");
+        }
+      </script>
 
         <div class="column2" >
         <div class="child"> 
