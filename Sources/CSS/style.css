@@ -709,9 +709,11 @@ body {
 }
 .column2 {
     display: flex;
-    height: 300px;
+    height: 200px;
     flex-direction: row;
     justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
 }
 .child{
     width: 20%;
