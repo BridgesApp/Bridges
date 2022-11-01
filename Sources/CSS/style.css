@@ -773,6 +773,53 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   border-radius: 50px;
 }
+.aboutcontainer{ /*container for pop-up*/
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.aboutcontact .popuptext{
+  visibility: hidden;
+  width: 300px;
+  background-color: rgb(149, 149, 149);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 35%;
+  margin-left: -100px;
+}
+.aboutcontact .popuptext::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.aboutcontact .show{
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
 /*------------------FAQ section------------------*/
 .faq{
     border:30px;
