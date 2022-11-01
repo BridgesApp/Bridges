@@ -720,6 +720,13 @@ body {
     height: 300px;
     margin: auto;
 }
+.aboutpara{
+    text-align:center;
+    margin-left:100px;
+    margin-right:100px;
+    height: 70px;
+    padding: 70px 0;
+}
 /*------------------FAQ section------------------*/
 .faq{
     border:30px;
