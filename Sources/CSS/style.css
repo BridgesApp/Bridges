@@ -767,6 +767,13 @@ body {
     align-items: center;
     background-color: #14335C
 }
+.aboutcard{
+  width: 142px;
+  height: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+}
 /*------------------FAQ section------------------*/
 .faq{
     border:30px;
