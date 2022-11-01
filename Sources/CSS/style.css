@@ -714,7 +714,8 @@ body {
     justify-content: space-evenly;
     width: 90%;
     margin: auto;
-    padding: 90px 10px 90px 10px;
+    padding: 30px;
+    white-space: nowrap;
 }
 .child{
     width: 20%;
@@ -726,7 +727,8 @@ body {
     margin-left:100px;
     margin-right:100px;
     height: 100px;
-    padding: 50px 0;
+    padding: 40px 0;
+    white-space: nowrap;
 }
 .aboutbutton{
     margin-top: -10px;
