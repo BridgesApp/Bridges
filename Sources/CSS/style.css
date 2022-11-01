@@ -758,7 +758,7 @@ body {
 }
 .aboutbox{
     letter-spacing: 1px;
-    margin: 30px 0px;
+    margin: auto;
     padding: 10px 30px;
     display: flex;
     width: 400px;
