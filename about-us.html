@@ -40,21 +40,42 @@
         <div class="myDiv" >
             <h1 style="text-align:center;color: white;">ABOUT OUR TEAM</h1>
         </div>
-        <p style="text-align:center;">
-            little paragraph about how company started + its goal 
+        <div class="aboutbox" style="float: center;">
+          <h2 style="color: white;text-align:center;">Keep Up-to-Date, <br> Keep in Contact.</h2>
+        </div>
+        <p class="aboutpara">
+
+           In this day and age of technology, contacting others has never been easier - or more difficult.<br>
+           Keeping up with people, whether it be your friends, family, or colleagues is hard; one hacked account <br>
+           or changed phone number could mean all sources of contact are gone. Make it easier by keeping up-to-date <br>
+           contact info. With Bridges, you can customize your phone number, email, socials, <br>
+           and other personal contact info with the click of a buttom. Build your bridges, don't burn them. <br>
         </p>
 
     <!-- IMAGES OF GROUP MEMBERS-->
-   
-        <div class="column" >
+      <div class="aboutbutton">
+        <div class="aboutcontact" onclick="myFunction()">
+          <!--<h2 style="text-align:center;color: #14335C;" ><br>-->TEAM MEMBERS<!--</h2>-->
+          <span class="popuptext" id="myPopup"> Contact us at bridgesteam@bridgesapp.ca for further inquiries</span>
+        </div>
+      </div>
+
+      <script>
+        function myFunction(){
+          var aboutcontact=document.getElementById("myPopup");
+          aboutcontact.classList.toggle("show");
+        }
+      </script>
+
+        <div class="column2" >
         <div class="child"> 
             <figure >
-                <img src="/Users/mare3/Downloads/pexels-romain-malatier-6142293.jpg" 
+                <img src="Sources/Images/about_us.png" 
                 alt="FIRST group member"  
                 width="142" height="142"  
                 style="border-radius:25%;"
                 >
-                <figcaption > <!-- change photo dimensions to smaller? -->
+                <figcaption class="aboutcard"> <!-- change photo dimensions to smaller? -->
                     (1st) name +position 
                 </figcaption>
             </figure>
@@ -62,12 +83,12 @@
 
         <div class = "child">
             <figure >
-                <img src="/Users/mare3/Downloads/pexels-romain-malatier-6142293.jpg" 
+                <img src="Sources/Images/about_us.png" 
                 alt="SECOND group member" 
                 width="142" height="142" 
                 style="border-radius:25%;"
                 >
-                <figcaption >
+                <figcaption class="aboutcard">
                     (2nd) name + position 
                 </figcaption>
             </figure>
@@ -75,12 +96,12 @@
 
         <div class="child">
             <figure >
-                <img src="/Users/mare3/Downloads/pexels-romain-malatier-6142293.jpg" 
+                <img src="Sources/Images/about_us.png" 
                 alt="THIRD group member" 
             width="142" height="142" 
             style="border-radius:25%;"
             > 
-            <figcaption >
+            <figcaption class="aboutcard">
                 (3rd) name + position 
             </figcaption>
             </figure>
@@ -88,26 +109,27 @@
 
         <div class="child" >
             <figure >
-                <img src="/Users/mare3/Downloads/pexels-romain-malatier-6142293.jpg" 
+                <img src="Sources/Images/about_us.png" 
                 alt="FOURTH group member" 
                 width="142" height="142" 
                 style="border-radius:25%;">
-                <figcaption >
+                <figcaption class="aboutcard">
                     (4th) name + position 
                 </figcaption>
             </figure>
         </div>
 
         <div class="child">
-            <figure >
-                <img src="/Users/mare3/Downloads/pexels-romain-malatier-6142293.jpg" 
+            <figure>
+                <img src="Sources/Images/about_us.png" 
                 alt="FIFTH group member" 
                 width="142" height="142" 
                 style="border-radius:25%;" 
                 >
-                <figcaption >
+                <figcaption class="aboutcard">
                     (5th) name + position 
                 </figcaption>
+                <br>
             </figure>
         </div>
     </div>
