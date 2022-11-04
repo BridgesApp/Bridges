@@ -854,3 +854,126 @@ input[type=text]:focus{
         width:100%;
 }
     /*search bar end*/
+
+
+                                    /*sign up page*/
+  .sign-up-container {
+    display: flex;
+    align-items: center;
+    width: 65vmax;
+    height: 75vmax;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 1.2;
+    color: #333333;
+    background: #ffffff;
+    border-top: 5px solid #EDA200;
+    box-shadow: 0 0 15px rgba(237, 162, 0);
+    position: center;
+    translate:225px
+}
+  
+.sign-up-container * {
+    font-family: 'Apple'
+}
+  
+.sign-up-left,
+.sign-up-right {
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
+  .sign-up-logo {
+    width: 200px;
+  }
+  
+ 
+  
+  .sign-up-link {
+    color: #3b43f2;
+  }
+  
+  .sign-up-errors {
+    color: rgb(201, 0, 0);
+  }
+  
+  .sign-up-label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: "Apple" ;
+    
+  }
+  
+  .sign-up-input {
+    width: 100%;
+    padding: 0.75em;
+    box-sizing: border-box;
+    font-size: 1em;
+    outline: none;
+    border: 2px solid #dddddd;
+  }
+  
+  .sign-up-input:focus {
+    border-color: #14335C;
+  }
+  
+  .sign-up-button {
+    display: block;
+    margin-left: auto;
+    margin-top: 15px;
+    padding: 0.8em 1.6em;
+    font-weight: bold;
+    font-size: 1.25em;
+    background: #14335C;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-family: "Apple";
+    cursor: pointer;
+
+    top: 20px;
+}
+  .sign-up-button:hover,.sign-up-button:focus,.sign-up-button:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background:#EDA200;
+    color: white;
+  }
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    body {
+      display: block;
+      padding: 0;
+    }
+  
+   
+  }
+  .title {
+    font-weight: bold;
+    font-family: "Apple";
+    position: relative;
+  }
+
+  .main-section2 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #75A3E0;
+}
+
+.side-text{
+    font-weight: bold;
+    font-family: "Apple";
+    font-size: 45pt;
+    color: #041e41 ;
+    display: block;
+    padding-bottom: 5%;
+    padding-top: 2.5%;
+    
+}
+
+                                    /*sign up page end*/
+                                   
