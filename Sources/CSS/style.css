@@ -871,6 +871,7 @@ input[type=text]:focus{
     box-shadow: 0 0 15px rgba(237, 162, 0);
     position: center;
     translate:225px
+    border-radius: 25px;
 }
   
 .sign-up-container * {
@@ -913,6 +914,7 @@ input[type=text]:focus{
     font-size: 1em;
     outline: none;
     border: 2px solid #dddddd;
+    border-radius: 25px;
   }
   
   .sign-up-input:focus {
@@ -933,7 +935,7 @@ input[type=text]:focus{
     outline: none;
     font-family: "Apple";
     cursor: pointer;
-
+    border-radius: 25px;
     top: 20px;
 }
   .sign-up-button:hover,.sign-up-button:focus,.sign-up-button:active {
