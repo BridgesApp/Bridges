@@ -605,9 +605,10 @@ body {
 
 /*------------------review section------------------*/
 #reviews{
-    display: center;
+    display: flex;
     justify-content: center;
     align-items:center;
+    flex-direction: column;
     width: 100%;
 }
 .review-heading
@@ -638,7 +639,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: warp;
+    flex-wrap: wrap;
     width: 100%;
 }
 .review-box{
