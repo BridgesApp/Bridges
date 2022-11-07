@@ -923,6 +923,7 @@ input[type=text]:focus{
   }
   
   .sign-up-button {
+    text-decoration: none;
     display: block;
     margin-left: auto;
     margin-top: 15px;
