@@ -953,6 +953,13 @@ input[type=text]:focus{
       padding: 0;
     }
   
+    .sign-up-container {
+      display: block;
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
    
   }
   .title {
