@@ -714,8 +714,8 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
-    margin-left: 45px;
-    padding: 50px 40px;
+    margin-left: 55px;
+    padding: 80px 40px;
     white-space: nowrap;
 }
 .child{
