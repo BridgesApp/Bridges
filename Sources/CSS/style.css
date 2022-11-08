@@ -836,7 +836,7 @@ body {
     height: 200px;
 }
 /*search bar beginning*/
-input[type=text] {
+#myInput {
     width: 130px;
     box-sizing: 50px;
     border: 2px solid #ccc;
@@ -851,19 +851,8 @@ input[type=text] {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 } 
-input[type=text]:focus{
-    width:100%;
-}
-
-#myInput {
-    background-image: url('/css/searchicon.png');
-    background-position: 10px 12px;
-    background-repeat: no-repeat;
-    width: 100%;
-    font-size: 16px;
-    padding: 12px 20px 12px 40px;
-    border: 1px solid #ddd;
-    margin-bottom: 12px;
+#myInput:focus{
+    width:90%;
 }
 
 #myUL {
