@@ -873,8 +873,8 @@ input[type=text]:focus{
 }
 #myUL li a {
     border: 1px solid #ddd;
-    margin-top: -1px; /* Prevent double borders */
-    background-color: #f6f6f6;
+    margin-top: -1px; 
+    background-color: white;
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
@@ -883,7 +883,7 @@ input[type=text]:focus{
 }
 
 #myUL li a:hover:not(.header){
-    background-color: #eee;
+    background-color: #a6a7a9;
 }
 
     /*search bar end*/
