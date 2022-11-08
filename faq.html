@@ -43,7 +43,7 @@
   <div class="faq" style="text-align: center;">
     <p style="font-size:50px;color:white;">F.A.Q</p>
      <form>
-      <input type="text" name="search"
+      <input type="text" name="search" id = "myInput" onkeyup="myFunction()"
       placeholder="Search..">
     </form>
   </div>
@@ -51,6 +51,46 @@
   <div style="width:fit;height:300px;">
 
   </div>
+  
+  <!--LIST OF FAQS-->
+
+<ul id="myUL">
+  <li><a href="#"> Where can I download Bridges? <br> Bridges is available in the App Store as well as Google Play for download </a></li>
+  <li><a href="#"> How can I update my contact information manually?<br> Go to 'My Profile' and select 'Settings'. From there, you can change your contact info in 'Update my Info Manually'</a></li>
+  <li><a href="#"> What happens if my account gets hacked? <br> By clicking 'Reset my Account' you can delete your account through the email or phone number you provided while signing up </a></li>
+  <li><a href="#"> How to I add contacts on Bridges? <br> Go to 'Settings' and press 'Connect my Contacts' to connect your existing contacts on your device</a></li>
+  <li><a href="#"> How to I add contacts on Bridges? <br> Go to 'Settings' and press 'Connect my Contacts' to connect your existing contacts on your device</a></li>
+  <li><a href="#"> What do I do if I forgot my Username/Password? <br> If you go to the 'Login' section, and click 'Forgot Username/Password?' an email will be sent from where you can recover your account </a></li>
+  <li><a href="#"> How do I change my privacy settings? <br> If you naviguate to 'Settings' and click on 'Privacy' you will be able to update any privacy settings </a></li>
+  <li><a href="#"> How do I activate my account? <br> After setting up your account, an activation email will be sent to the email you signed up with </a></li>
+  <li><a href="#"> How do I update personal information (name, pronouns)?<br> If you click 'Edit my Bio', any personal information other users may see can be updated </a></li>
+  <li><a href="#"> How do I access the Privacy Policy? <br> If you naviguate to 'Terms of Use' you can access the Privacy Policy</a></li>
+</ul>
+  
+  <!--END OF LIST-->
+  
+  <!--INTERACTIVE SEARCH BAR JS-->
+  <script>
+  
+  function myFunction(){
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for(i = 0; i <li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else{
+          li[i].style.display = "none";
+      }
+    }
+  }
+   
+  </script>
+  <!--END OF SEARCHBAR JS-->
 
   <!-- THE THREE ICONS AT BOTTOM OF PAGE-->
   <hr>
