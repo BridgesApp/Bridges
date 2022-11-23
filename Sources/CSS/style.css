@@ -723,6 +723,9 @@ body {
     width: 20%;
     height: 300px;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-contents: center;
 }
 .aboutpara{
     text-align:center;
