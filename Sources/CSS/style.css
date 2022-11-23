@@ -657,6 +657,7 @@ body {
     height: 50px;
     border-radius: 50%;
     overflow: hidden;
+    margin-right: 15px;
 }
 .profile-img img{
     width: 100%;
